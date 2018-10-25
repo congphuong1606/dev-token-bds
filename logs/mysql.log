@@ -1,0 +1,126 @@
+181025 12:40:26 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+181025 12:40:26 [Note] /usr/sbin/mysqld (mysqld 10.0.36-MariaDB) starting as process 8681 ...
+181025 12:40:26 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+181025 12:40:26 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+181025 12:40:26 [Note] InnoDB: The InnoDB memory heap is disabled
+181025 12:40:26 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+181025 12:40:26 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+181025 12:40:26 [Note] InnoDB: Compressed tables use zlib 1.2.7
+181025 12:40:26 [Note] InnoDB: Using Linux native AIO
+181025 12:40:26 [Note] InnoDB: Using CPU crc32 instructions
+181025 12:40:26 [Note] InnoDB: Initializing buffer pool, size = 48.0M
+181025 12:40:26 [Note] InnoDB: Completed initialization of buffer pool
+181025 12:40:26 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+181025 12:40:26 [Note] InnoDB: Setting file ./ibdata1 size to 10 MB
+181025 12:40:26 [Note] InnoDB: Database physically writes the file full: wait...
+181025 12:40:26 [Note] InnoDB: Setting log file ./ib_logfile101 size to 128 MB
+181025 12:40:26 [Note] InnoDB: Setting log file ./ib_logfile1 size to 128 MB
+181025 12:40:27 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+181025 12:40:27 [Warning] InnoDB: New log files created, LSN=45781
+181025 12:40:27 [Note] InnoDB: Doublewrite buffer not found: creating new
+181025 12:40:27 [Note] InnoDB: Doublewrite buffer created
+181025 12:40:27 [Note] InnoDB: 128 rollback segment(s) are active.
+181025 12:40:27 [Warning] InnoDB: Creating foreign key constraint system tables.
+181025 12:40:27 [Note] InnoDB: Foreign key constraint system tables created
+181025 12:40:27 [Note] InnoDB: Creating tablespace and datafile system tables.
+181025 12:40:27 [Note] InnoDB: Tablespace and datafile system tables created.
+181025 12:40:27 [Note] InnoDB: Waiting for purge to start
+181025 12:40:27 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.39-83.1 started; log sequence number 0
+181025 12:40:27 [Note] Plugin 'FEEDBACK' is disabled.
+181025 12:40:27 [Note] Server socket created on IP: '::'.
+2018-10-25 12:40:27 7f7c2fff6700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+2018-10-25 12:40:27 7f7c2fff6700 InnoDB: Cannot open './/ib_buffer_pool' for reading: No such file or directory
+181025 12:40:27 [Warning] InnoDB: Cannot open table mysql/gtid_slave_pos from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+181025 12:40:27 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+181025 12:40:27 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.36-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+181025 12:40:28 [Warning] InnoDB: Cannot open table mysql/gtid_slave_pos from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+181025 12:40:28 [Warning] InnoDB: Cannot open table mysql/innodb_table_stats from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+181025 12:40:28 [Warning] InnoDB: Cannot open table mysql/innodb_index_stats from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2018-10-25 12:40:28 7f7c45086700  InnoDB: Error: table `mysql`.`innodb_index_stats` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2018-10-25 12:40:28 7f7c45086700  InnoDB: Error: table `mysql`.`innodb_table_stats` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2018-10-25 12:40:28 7f7c45086700  InnoDB: Error: table `mysql`.`gtid_slave_pos` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+181025 12:40:28 [Note] /usr/sbin/mysqld: Normal shutdown
+181025 12:40:28 [Note] Event Scheduler: Purging the queue. 0 events
+181025 12:40:28 [Note] InnoDB: FTS optimize thread exiting.
+181025 12:40:28 [Note] InnoDB: Starting shutdown...
+2018-10-25 12:40:28 7f7c2fff6700 InnoDB: Dumping buffer pool(s) to .//ib_buffer_pool
+2018-10-25 12:40:28 7f7c2fff6700 InnoDB: Buffer pool(s) dump completed at 181025 12:40:28
+181025 12:40:28 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+181025 12:40:30 [Note] InnoDB: Shutdown completed; log sequence number 1616692
+181025 12:40:30 [Note] /usr/sbin/mysqld: Shutdown complete
+
+181025 12:40:30 mysqld_safe mysqld from pid file /var/lib/mysql/serve26102018.pid ended
+181025 12:40:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+181025 12:40:30 [Note] /usr/sbin/mysqld (mysqld 10.0.36-MariaDB) starting as process 9082 ...
+181025 12:40:30 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+181025 12:40:30 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+181025 12:40:30 [Note] InnoDB: The InnoDB memory heap is disabled
+181025 12:40:30 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+181025 12:40:30 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+181025 12:40:30 [Note] InnoDB: Compressed tables use zlib 1.2.7
+181025 12:40:30 [Note] InnoDB: Using Linux native AIO
+181025 12:40:30 [Note] InnoDB: Using CPU crc32 instructions
+181025 12:40:30 [Note] InnoDB: Initializing buffer pool, size = 48.0M
+181025 12:40:30 [Note] InnoDB: Completed initialization of buffer pool
+181025 12:40:30 [Note] InnoDB: Highest supported file format is Barracuda.
+181025 12:40:30 [Note] InnoDB: 128 rollback segment(s) are active.
+181025 12:40:30 [Note] InnoDB: Waiting for purge to start
+181025 12:40:30 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.39-83.1 started; log sequence number 1616692
+181025 12:40:30 [Note] Plugin 'FEEDBACK' is disabled.
+181025 12:40:30 [Note] Server socket created on IP: '::'.
+2018-10-25 12:40:30 7f3091ff6700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+181025 12:40:30 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.36-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+2018-10-25 12:40:30 7f3091ff6700 InnoDB: Buffer pool(s) load completed at 181025 12:40:30
+181025 12:40:40 [Note] /usr/sbin/mysqld: Normal shutdown
+181025 12:40:40 [Note] Event Scheduler: Purging the queue. 0 events
+181025 12:40:40 [Note] InnoDB: FTS optimize thread exiting.
+181025 12:40:40 [Note] InnoDB: Starting shutdown...
+2018-10-25 12:40:40 7f3091ff6700 InnoDB: Dumping buffer pool(s) to .//ib_buffer_pool
+2018-10-25 12:40:40 7f3091ff6700 InnoDB: Buffer pool(s) dump completed at 181025 12:40:40
+181025 12:40:41 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+181025 12:40:43 [Note] InnoDB: Shutdown completed; log sequence number 1616702
+181025 12:40:43 [Note] /usr/sbin/mysqld: Shutdown complete
+
+181025 12:40:43 mysqld_safe mysqld from pid file /var/lib/mysql/serve26102018.pid ended
+181025 12:40:56 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+181025 12:40:56 [Note] /usr/sbin/mysqld (mysqld 10.0.36-MariaDB) starting as process 1301 ...
+181025 12:40:56 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+181025 12:40:56 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+181025 12:40:56 [Note] InnoDB: The InnoDB memory heap is disabled
+181025 12:40:56 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+181025 12:40:56 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+181025 12:40:56 [Note] InnoDB: Compressed tables use zlib 1.2.7
+181025 12:40:56 [Note] InnoDB: Using Linux native AIO
+181025 12:40:56 [Note] InnoDB: Using CPU crc32 instructions
+181025 12:40:56 [Note] InnoDB: Initializing buffer pool, size = 48.0M
+181025 12:40:56 [Note] InnoDB: Completed initialization of buffer pool
+181025 12:40:56 [Note] InnoDB: Highest supported file format is Barracuda.
+181025 12:40:56 [Note] InnoDB: 128 rollback segment(s) are active.
+181025 12:40:56 [Note] InnoDB: Waiting for purge to start
+181025 12:40:56 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.39-83.1 started; log sequence number 1616702
+181025 12:40:56 [Note] Plugin 'FEEDBACK' is disabled.
+2018-10-25 12:40:56 7f1f0aff6700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+181025 12:40:56 [Note] Server socket created on IP: '::'.
+2018-10-25 12:40:56 7f1f0aff6700 InnoDB: Buffer pool(s) load completed at 181025 12:40:56
+181025 12:40:56 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.36-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
